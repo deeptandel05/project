@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Annie Use Your Telescope", cursive;
+}
+
+.fff {
+    background-color: #f0ead2;
+    color: #fb8500;
+}
+
+.navbar .d-flex {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.container-fluid .logo {
+    margin-left: 200px;
+    font-weight: bolder;
+    color: #fb8500;
+    /* padding-inline: 10%; */
+    font-size: 36px;
+}
+
+/* .navbar-nav {
+    margin-right: 100px;
+} */
+/* #navv{
+    padding: 0;  
+}
+#sliders{
+    margin-top: 20px;
+} */
+.navbar-nav .nav-item .nav-link {
+    color: #fb8500;
+}
+.navbar-nav .nav-item .nav-link.last-link{
+    margin-right: 73px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-family: "Annie Use Your Telescope", cursive;
+}
+
+.slide {
+    font-family: "Annie Use Your Telescope", cursive;
+}
+
+li {
+    list-style: none;
+    padding: 0 12px;
+    font-size: 18px;
+}
+
+.carousel-item {
+    height: 83vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 200px;
+    z-index: 2;
+}
+
+.carousel-caption h1 {
+    color: #fb8500;
+    font-size: 60px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+
+.carousel-caption p {
+    width: 85%;
+    margin: auto;
+    line-height: 1.9;
+    font-size: 22px;
+}
+
+.carousel-caption #p {
+    margin-bottom: 20px;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+#myCarousel i {
+    background-color: antiquewhite;
+    font-size: 34px;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-inline: 20px;
+}
+
+/* .images {
+    margin-top: 29px;
+    width: 100%;
+} */
+
+.t1,
+.t2,
+.title {
+    color: #fb8500;
+}
+
+.title {
+    /* font-size: 45px; */
+    padding: 2px;
+}
+
+/* .box-img{
+
+} */
+
+/* .title::before{
+    content: '';
+    position: absolute;
+    top: 140%;
+    left: 46%;
+    background-color: #fb8500;
+    height: 2px;
+    width: 125px;
+} */
+.line {
+    background-color: #fb8500;
+    margin-inline: auto;
+    width: 10%;
+    height: 1px;
+    margin: auto;
+    border: 2px solid #fb8500;
+}
+
+/* .container .sec-3 {
+    width: 74%;
+} */
+
+.border-0 {
+    border: none;
+    outline: none;
+    border: 1px solid black;
+}
+
+.fa-regular,
+.fa-solid {
+    margin-right: 12px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.footer i {
+    margin-right: 30px;
+}
+@media only screen and (max-width:767px) {
+    
+    /* .ul-bg{
+        background-color: bisque;
+    } */
+    .carousel-caption {
+        bottom: 150px;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 35px;
+    }
+    
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+    
+    .carousel-caption p {
+        font-size: 15px;
+    }
+    
+    #myCarousel i {
+        font-size: 20px;
+    }
+    
+    .sec-4 {
+        text-align: center;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width:983px) {
+    iframe {
+        width: 600px; 
+    }
+    .container-fluid .logo {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    
+    iframe {
+        width: 350px;
+        /* background-color: aqua; */
+        margin-left: -20px;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .sec-4 {
+        text-align: center;
+    }
+
+    iframe {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+
+    /* .input,
+    .form-label,
+    textarea {
+        width: 85vw;
+        margin-left: -59px;
+    } */
+
+    /* .box {
+        width: 329px;
+        margin-left: -7px;
+    } */
+}
+/* @media only screen and (min-width:321px) and (max-width:) {
+
+} */
+
+@media only screen and (max-width:321px) {
+    .box {
+        width: 300px;
+        margin-left: -10px;
+    }
+
+    #name,#text{
+        width: 92vw;
+        margin-left: -11px;
+    }
+    iframe {
+        width: 300px;
+        margin-left: 0px;
+    }
+}
+@media (max-width:1160px)and (min-width:991px){
+    iframe.frame{
+        width: 32vw;
+        margin-left: -32px;
+    }
+}
+
+@media (min-width:1200px){
+    .www{
+        width:43.33333333%;
+    }
+}
